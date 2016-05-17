@@ -9,8 +9,8 @@
 
 ## Links
 
-[Final report](https://docs.google.com/a/upr.edu/document/d/1vv_byBv8va7z-3N4GGlu7BuMRUxHmILkyt2lr6jLPS8/edit?usp=sharing)
-[GitHub Page](http://quickvu.github.io/quickvu/)
+* [Final report](https://docs.google.com/a/upr.edu/document/d/1vv_byBv8va7z-3N4GGlu7BuMRUxHmILkyt2lr6jLPS8/edit?usp=sharing)
+* [GitHub Page](http://quickvu.github.io/quickvu/)
 
 ## Introduction
 
