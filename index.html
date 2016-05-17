@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="QuickVU : ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>QuickVU</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/quickvu/quickvu">View on GitHub</a>
+
+          <h1 id="project_title">QuickVU</h1>
+          <h2 id="project_tagline"></h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/quickvu/quickvu/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/quickvu/quickvu/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="quickvu" class="anchor" href="#quickvu" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>QuickVU</h1>
+
+<h2>
+<a id="team-members" class="anchor" href="#team-members" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Team Members</h2>
+
+<ol>
+<li>Benjamin Acevedo</li>
+<li>Tarik Calderon</li>
+<li>Michael Mercado</li>
+<li>Andros Rosa</li>
+</ol>
+
+<h2>
+<a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h2>
+
+<p>QuickVU is a programming language designed to facilitate user interface development for web projects by merging the most common UI web technologies into one product. The current UI development method for the web requires knowledge of various web technologies such as HTML, CSS, JavaScript. Hence, developers end up working with different languages each with different syntax, procedures and learning curves. Consequently, our motivation for creating QuickVU comes from the idea that the process of developing web UI’s can be simplified by unifying the most used web technologies and standards into one programming language. QuickVU provides a tool for developers where the code they write is converted into a fully functional static website containing all the required HTML, Javascript and CSS code in combination with standard web development libraries and dependencies.</p>
+
+<h2>
+<a id="setting-up-quickvu" class="anchor" href="#setting-up-quickvu" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setting up QuickVU</h2>
+
+<ol>
+<li>Download as ZIP or clone to desired location</li>
+<li>Open terminal session and navigate to the QuickVU directory</li>
+<li>Install dependencies:
+
+<ul>
+<li>PyQuery:
+
+<ul>
+<li>sudo pip install pyquery</li>
+</ul>
+</li>
+<li>BeautifulSoup:
+
+<ul>
+<li>sudo pip install beautifulsoup4</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Run QuickVU:
+
+<ul>
+<li>python quickvu.py</li>
+</ul>
+</li>
+</ol>
+
+<h2>
+<a id="sample-usage" class="anchor" href="#sample-usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sample usage</h2>
+
+<ol>
+<li>
+<em>QuickVu</em> <code>&gt; &lt;vucreate htmlpage&gt;</code>
+</li>
+<li>
+<em>QuickVu</em> <code>&gt; &lt;vumenu 1&gt;</code>
+</li>
+<li>
+<em>QuickVu</em> <code>&gt; &lt;vuelement heading1&gt;</code>
+</li>
+<li>
+<em>QuickVu</em> <code>&gt; &lt;vuelement paragraph&gt;</code>
+</li>
+<li>
+<em>QuickVu</em> <code>&gt; &lt;vuelement heading2&gt;</code>
+</li>
+<li>
+<em>QuickVu</em> <code>&gt; &lt;vuelement table&gt;</code>
+</li>
+<li>
+<em>QuickVu</em> <code>&gt; &lt;vuelement image&gt;</code>
+</li>
+<li>
+<em>QuickVu</em> <code>&gt; &lt;vuform textarea&gt;</code>
+</li>
+<li>
+<em>QuickVu</em> <code>&gt; &lt;vuform dropdown&gt;</code>
+</li>
+<li>
+<em>QuickVu</em> <code>&gt; &lt;vuform password&gt;</code>
+</li>
+<li>
+<em>QuickVu</em> <code>&gt; &lt;vuform submit&gt;</code>
+</li>
+<li>
+<em>QuickVu</em> <code>&gt; &lt;vufinish&gt;</code>
+</li>
+</ol>
+
+<h2>
+<a id="language-reference-manual" class="anchor" href="#language-reference-manual" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Language Reference Manual</h2>
+
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&lt;vucreate page_title&gt;</code></td>
+<td>Any name</td>
+<td>The title of the web page</td>
+</tr>
+<tr>
+<td><code>&lt;vumenu x&gt;</code></td>
+<td>1, 2, 3</td>
+<td>1 = White navigation template, 2 = Black navigation template, 3 = Black navigation and responsive template</td>
+</tr>
+<tr>
+<td><code>&lt;vuelement headingX&gt;</code></td>
+<td>heading1, heading2, heading3, heading4, heading5, heading6</td>
+<td>Creates a dummy heading</td>
+</tr>
+<tr>
+<td><code>&lt;vuelement paragraph&gt;</code></td>
+<td>paragraph</td>
+<td>Adds a dummy paragraph</td>
+</tr>
+<tr>
+<td><code>&lt;vuelement table&gt;</code></td>
+<td>table</td>
+<td>Creates a dummy table</td>
+</tr>
+<tr>
+<td><code>&lt;vuelement image&gt;</code></td>
+<td>image</td>
+<td>Displays a dummy image</td>
+</tr>
+<tr>
+<td><code>&lt;vuelement list&gt;</code></td>
+<td>list</td>
+<td>Creates a dummy list</td>
+</tr>
+<tr>
+<td><code>&lt;vuelement button&gt;</code></td>
+<td>button</td>
+<td>Creates a default button</td>
+</tr>
+<tr>
+<td><code>&lt;vuform textarea&gt;</code></td>
+<td>textarea</td>
+<td>Creates a form with a text area</td>
+</tr>
+<tr>
+<td><code>&lt;vuform dropdown&gt;</code></td>
+<td>dropdown</td>
+<td>Creates a dropdown on the form</td>
+</tr>
+<tr>
+<td><code>&lt;vuform radio&gt;</code></td>
+<td>radio</td>
+<td>Creates a radio element for the form</td>
+</tr>
+<tr>
+<td><code>&lt;vuform checkbox&gt;</code></td>
+<td>checkbox</td>
+<td>Creates a simple checkbox element</td>
+</tr>
+<tr>
+<td><code>&lt;vuform text&gt;</code></td>
+<td>text</td>
+<td>Creates a simple are to input text</td>
+</tr>
+<tr>
+<td><code>&lt;vuform password&gt;</code></td>
+<td>password</td>
+<td>Creates area for password input</td>
+</tr>
+<tr>
+<td><code>&lt;vuform number&gt;</code></td>
+<td>number</td>
+<td>Creates area to input numbers</td>
+</tr>
+<tr>
+<td><code>&lt;vuform submit&gt;</code></td>
+<td>submit</td>
+<td>Creates a submit button</td>
+</tr>
+<tr>
+<td><code>&lt;vufinish&gt;</code></td>
+<td>N/A</td>
+<td>Finishes the web page and opens it. Also adds default footer for web page.</td>
+</tr>
+</tbody>
+</table>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">QuickVU maintained by <a href="https://github.com/quickvu">quickvu</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
