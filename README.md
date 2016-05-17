@@ -11,8 +11,6 @@
 
 [Final report](https://docs.google.com/a/upr.edu/document/d/1vv_byBv8va7z-3N4GGlu7BuMRUxHmILkyt2lr6jLPS8/edit?usp=sharing)
 
-`<a href="http://www.youtube.com/watch?feature=player_embedded&v=Ou0tFMh3yY0" target="_blank"><img src="http://img.youtube.com/vi/Ou0tFMh3yY0/0.jpg" alt="QuickVU tutorial video" width="240" height="180" border="10" /></a>`
-
 ## Introduction
 
 QuickVU is a programming language designed to facilitate user interface development for web projects by merging the most common UI web technologies into one product. The current UI development method for the web requires knowledge of various web technologies such as HTML, CSS, JavaScript. Hence, developers end up working with different languages each with different syntax, procedures and learning curves. Consequently, our motivation for creating QuickVU comes from the idea that the process of developing web UI’s can be simplified by unifying the most used web technologies and standards into one programming language. QuickVU provides a tool for developers where the code they write is converted into a fully functional static website containing all the required HTML, Javascript and CSS code in combination with standard web development libraries and dependencies.
